@@ -1,0 +1,49 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+.calculator {
+    width: 650px;
+    margin: 0 auto;
+    background: black;
+}
+.display {
+    background-color: black;
+    height: 80px;
+    color: white;
+    padding: 160px 20px 60px;
+    text-align: right;
+    font-size: 6em;
+}
+.keypad {
+    display: table;
+    padding: 1px;
+}
+.keypad button {
+    background-color: grey;
+    width: 160px;
+    float: left;
+    height: 160px;
+    border: 0;
+    margin: 1px;
+    font-size: 3em;
+}
+.keypad button.color {
+    background-color: orange;
+    color: white;
+}
+.keypad button.large {
+    width: 322px;
+}
+.keypad button:hover,
+.keypad button:active {
+    cursor: pointer;
+    outline: none;
+}
+.keypad button:hover {
+    opacity: 0.85;
+}
+.keypad button:active {
+    background-color: white;
+    color: black;
+}
